@@ -14,13 +14,12 @@
 4. [Tech Stack](#-tech-stack)
 5. [Pipeline Architecture](#-pipeline-architecture)
 6. [Repository Structure](#-repository-structure)
-7. [Getting Started](#-getting-started)
-8. [Training Pipeline](#-training-pipeline)
-9. [Mobile Deployment](#-mobile-deployment)
-10. [Key Engineering Decisions](#-key-engineering-decisions)
-11. [Results Summary](#-results-summary)
-12. [Limitations & Future Work](#-limitations--future-work)
-13. [Acknowledgments](#-acknowledgments)
+7. [Training Pipeline](#-training-pipeline)
+8. [Mobile Deployment](#-mobile-deployment)
+9. [Key Engineering Decisions](#-key-engineering-decisions)
+10. [Results Summary](#-results-summary)
+11. [Limitations & Future Work](#-limitations--future-work)
+12. [Acknowledgments](#-acknowledgments)
 
 ---
 
