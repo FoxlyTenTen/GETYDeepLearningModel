@@ -2,7 +2,7 @@
 
 > A deep learning system that identifies six rubber tree (*Hevea brasiliensis*) leaf diseases from a single phone photo — fully offline, deployable on Android devices.
 
-**Final Year Project** · **Author:** [Your Name] · **University:** [Your University]
+**Final Year Project** · **Author:** Mohd Adli Syukri bin Noraman · **University:** Universiti Tenaga Nasional
 
 ---
 
@@ -78,13 +78,13 @@ The confusion matrix reveals where the model succeeds and where it struggles. Mi
 
 Random selection of 20 test images with their true and predicted labels. Green titles = correct predictions, red = incorrect.
 
-![Sample Predictions](PerformanceMetrics/sample_predictions.pdf)
+
 
 ### Per-Class Accuracy
 
 Per-class accuracy on a sample of test images, illustrating that the model performs consistently across all 6 disease classes.
 
-![Per-Class Accuracy](PerformanceMetrics/per_class_accuracy.pdf)
+
 
 ### YOLO Built-in Results
 
@@ -206,45 +206,6 @@ rubber-disease-classifier/
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Python 3.10 or 3.11**
-- **NVIDIA GPU with CUDA 11.8+** (recommended; CPU works but ~20× slower)
-- **8 GB+ RAM**
-- **15 GB free disk space**
-
-### Installation
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/YourUsername/rubber-disease-classifier.git
-cd rubber-disease-classifier
-```
-
-2. **Create a conda environment:**
-```bash
-conda create -n rubber-disease python=3.11 -y
-conda activate rubber-disease
-```
-
-3. **Install dependencies:**
-```bash
-pip install ultralytics torch torchvision numpy pandas pillow matplotlib seaborn scikit-learn tqdm onnx onnxslim onnxruntime
-```
-
-4. **For TFLite export (optional, only needed for mobile deployment):**
-```bash
-pip install "tensorflow>=2.13,<2.20" onnx2tf onnx_graphsurgeon sng4onnx ai-edge-litert
-```
-
-5. **Verify installation:**
-```bash
-python -c "import torch; print('CUDA:', torch.cuda.is_available())"
-```
-
----
 
 ## 🏋 Training Pipeline
 
@@ -402,21 +363,6 @@ Each addresses a different failure mode; together they give a robust training pr
 - **My supervisor** for guidance throughout this FYP
 - Open-source contributors to PyTorch, scikit-learn, ONNX, and TensorFlow Lite
 
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 📬 Contact
-
-For questions, collaborations, or feedback:
-
-- **GitHub:** [@YourUsername](https://github.com/YourUsername)
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your Name](https://linkedin.com/in/yourname)
 
 ---
 
